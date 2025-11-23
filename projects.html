@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Mohammed Abdul Saif</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo"><a href="index.html" style="text-decoration: none; color: inherit;">Abdul Saif</a></h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="index.html#skills">Skills</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Projects Hero -->
+    <section class="projects-hero">
+        <div class="container">
+            <h1 class="page-title">My Projects</h1>
+            <p class="page-subtitle">A showcase of my work in Mobile Development, AI/ML, and Web Applications</p>
+        </div>
+    </section>
+
+    <!-- Filter Buttons -->
+    <section class="filter-section">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                <button class="filter-btn" data-filter="ai">AI/ML</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- DieMetal Project -->
+    <section class="project-detail" data-category="mobile">
+        <div class="container">
+            <div class="project-header">
+                <div class="project-title-section">
+                    <span class="project-badge featured">World's First</span>
+                    <h2><i class="fas fa-shopping-cart"></i> DieMetal</h2>
+                    <p class="project-tagline">Marketplace for Diecast Collectors</p>
+                </div>
+                <div class="project-meta-info">
+                    <span class="meta-item"><i class="fas fa-calendar"></i> Nov 2024</span>
+                    <span class="meta-item"><i class="fas fa-mobile-alt"></i> iOS & Android</span>
+                </div>
+            </div>
+
+            <div class="project-description-section">
+                <h3>About the Project</h3>
+                <p>DieMetal is the world's first dedicated marketplace mobile application for diecast car enthusiasts. It connects collectors globally, enabling them to buy, sell, and trade diecast models with secure transactions and real-time messaging.</p>
+                
+                <div class="project-features">
+                    <h4>Key Features</h4>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Real-time messaging with Firebase Cloud Messaging (FCM)</li>
+                        <li><i class="fas fa-check-circle"></i> Secure user authentication and profile management</li>
+                        <li><i class="fas fa-check-circle"></i> Advanced search and filter system for diecast models</li>
+                        <li><i class="fas fa-check-circle"></i> Firestore database for scalable data management</li>
+                        <li><i class="fas fa-check-circle"></i> Push notifications for order updates and messages</li>
+                    </ul>
+                </div>
+
+                <div class="tech-stack-detail">
+                    <h4>Technologies Used</h4>
+                    <div class="tech-tags-large">
+                        <span class="tech-tag">Flutter</span>
+                        <span class="tech-tag">Firebase</span>
+                        <span class="tech-tag">Firestore</span>
+                        <span class="tech-tag">FCM</span>
+                        <span class="tech-tag">Dart</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-gallery">
+                <h3>Screenshots & Preview</h3>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/600x800/667eea/ffffff?text=DieMetal+Home" alt="DieMetal Home Screen">
+                        <p class="gallery-caption">Home Screen</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/600x800/8b5cf6/ffffff?text=Product+Listing" alt="Product Listing">
+                        <p class="gallery-caption">Product Listing</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/600x800/06b6d4/ffffff?text=Chat+Feature" alt="Chat Feature">
+                        <p class="gallery-caption">Real-time Chat</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/600x800/f59e0b/ffffff?text=Profile+Page" alt="Profile Page">
+                        <p class="gallery-caption">User Profile</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Affordeli Project -->
+    <section class="project-detail" data-category="mobile">
+        <div class="container">
+            <div class="project-header">
+                <div class="project-title-section">
+                    <h2><i class="fas fa-utensils"></i> Affordeli</h2>
+                    <p class="project-tagline">Global Food Delivery Platform</p>
+                </div>
+                <div class="project-meta-info">
+                    <span class="meta-item"><i class="fas fa-calendar"></i> In Development</span>
+                    <span class="meta-item"><i class="fas fa-mobile-alt"></i> iOS & Android</span>
+                </div>
+            </div>
+
+            <div class="project-description-section">
+                <h3>About the Project</h3>
+                <p>Affordeli is an innovative startup that enables users to order products from different countries, making global commerce more convenient and affordable. Built with Flutter and powered by AWS infrastructure.</p>
+                
+                <div class="project-features">
+                    <h4>Key Features</h4>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Cross-border food delivery system</li>
+                        <li><i class="fas fa-check-circle"></i> Real-time order tracking</li>
+                        <li><i class="fas fa-check-circle"></i> MongoDB database for scalable operations</li>
+                        <li><i class="fas fa-check-circle"></i> AWS cloud infrastructure</li>
+                        <li><i class="fas fa-check-circle"></i> Multi-currency payment support</li>
+                    </ul>
+                </div>
+
+                <div class="tech-stack-detail">
+                    <h4>Technologies Used</h4>
+                    <div class="tech-tags-large">
+                        <span class="tech-tag">Flutter</span>
+                        <span class="tech-tag">AWS</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Express.js</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-gallery">
+                <h3>Screenshots & Preview</h3>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/600x800/667eea/ffffff?text=Affordeli+Home" alt="Affordeli Home">
+                        <p class="gallery-caption">Home Screen</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/600x800/8b5cf6/ffffff?text=Restaurant+List" alt="Restaurant List">
+                        <p class="gallery-caption">Restaurant List</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/600x800/06b6d4/ffffff?text=Order+Tracking" alt="Order Tracking">
+                        <p class="gallery-caption">Order Tracking</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/600x800/f59e0b/ffffff?text=Checkout" alt="Checkout">
+                        <p class="gallery-caption">Checkout Process</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Motogram Project -->
+    <section class="project-detail" data-category="mobile">
+        <div class="container">
+            <div class="project-header">
+                <div class="project-title-section">
+                    <h2><i class="fas fa-car"></i> Motogram</h2>
+                    <p class="project-tagline">Car & Bike Marketplace with a Twist</p>
+                </div>
+                <div class="project-meta-info">
+                    <span class="meta-item"><i class="fas fa-calendar"></i> In Development</span>
+                    <span class="meta-item"><i class="fas fa-mobile-alt"></i> iOS & Android</span>
+                </div>
+            </div>
+
+            <div class="project-description-section">
+                <h3>About the Project</h3>
+                <p>Motogram is a unique mobile marketplace for buying and selling cars and bikes, featuring Y2K-inspired design and modern payment integration with Stripe and Cloudflare security.</p>
+                
+                <div class="project-features">
+                    <h4>Key Features</h4>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Y2K / Fast & Furious inspired UI design</li>
+                        <li><i class="fas fa-check-circle"></i> Secure payments with Stripe integration</li>
+                        <li><i class="fas fa-check-circle"></i> Cloudflare CDN for fast image loading</li>
+                        <li><i class="fas fa-check-circle"></i> Firebase real-time database</li>
+                        <li><i class="fas fa-check-circle"></i> Advanced vehicle search and filters</li>
+                    </ul>
+                </div>
+
+                <div class="tech-stack-detail">
+                    <h4>Technologies Used</h4>
+                    <div class="tech-tags-large">
+                        <span class="tech-tag">Flutter</span>
+                        <span class="tech-tag">Firebase</span>
+                        <span class="tech-tag">Cloudflare</span>
+                        <span class="tech-tag">Stripe</span>
+                        <span class="tech-tag">Dart</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-gallery">
+                <h3>Screenshots & Preview</h3>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/600x800/667eea/ffffff?text=Motogram+Home" alt="Motogram Home">
+                        <p class="gallery-caption">Home Screen</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/600x800/8b5cf6/ffffff?text=Car+Listings" alt="Car Listings">
+                        <p class="gallery-caption">Car Listings</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/600x800/06b6d4/ffffff?text=Y2K+Design" alt="Y2K Design">
+                        <p class="gallery-caption">Y2K Style UI</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/600x800/f59e0b/ffffff?text=Payment" alt="Payment">
+                        <p class="gallery-caption">Secure Payment</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HealthApp Project -->
+    <section class="project-detail" data-category="mobile">
+        <div class="container">
+            <div class="project-header">
+                <div class="project-title-section">
+                    <h2><i class="fas fa-heartbeat"></i> HealthApp</h2>
+                    <p class="project-tagline">AI-Powered Family Fitness Tracker</p>
+                </div>
+                <div class="project-meta-info">
+                    <span class="meta-item"><i class="fas fa-calendar"></i> In Development</span>
+                    <span class="meta-item"><i class="fas fa-mobile-alt"></i> iOS & Android</span>
+                </div>
+            </div>
+
+            <div class="project-description-section">
+                <h3>About the Project</h3>
+                <p>HealthApp helps you and your loved ones stay fit with AI-powered personalized health tracking, family wellness features, and integrated payment processing.</p>
+                
+                <div class="project-features">
+                    <h4>Key Features</h4>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> AI-powered fitness recommendations</li>
+                        <li><i class="fas fa-check-circle"></i> Family health tracking and sharing</li>
+                        <li><i class="fas fa-check-circle"></i> Stripe payment integration for premium features</li>
+                        <li><i class="fas fa-check-circle"></i> Firebase backend for real-time sync</li>
+                        <li><i class="fas fa-check-circle"></i> Personalized workout and nutrition plans</li>
+                    </ul>
+                </div>
+
+                <div class="tech-stack-detail">
+                    <h4>Technologies Used</h4>
+                    <div class="tech-tags-large">
+                        <span class="tech-tag">Flutter</span>
+                        <span class="tech-tag">Firebase</span>
+                        <span class="tech-tag">Stripe</span>
+                        <span class="tech-tag">AI/ML</span>
+                        <span class="tech-tag">Dart</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-gallery">
+                <h3>Screenshots & Preview</h3>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/600x800/667eea/ffffff?text=Health+Dashboard" alt="Health Dashboard">
+                        <p class="gallery-caption">Health Dashboard</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/600x800/8b5cf6/ffffff?text=AI+Recommendations" alt="AI Recommendations">
+                        <p class="gallery-caption">AI Recommendations</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/600x800/06b6d4/ffffff?text=Family+Tracking" alt="Family Tracking">
+                        <p class="gallery-caption">Family Tracking</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/600x800/f59e0b/ffffff?text=Workout+Plans" alt="Workout Plans">
+                        <p class="gallery-caption">Workout Plans</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Research Assistant -->
+    <section class="project-detail" data-category="ai">
+        <div class="container">
+            <div class="project-header">
+                <div class="project-title-section">
+                    <h2><i class="fas fa-brain"></i> AI-Powered Research Assistant</h2>
+                    <p class="project-tagline">Automated Research Paper Analysis</p>
+                </div>
+                <div class="project-meta-info">
+                    <span class="meta-item"><i class="fas fa-calendar"></i> Dec 2024</span>
+                    <span class="meta-item"><i class="fas fa-laptop-code"></i> Python</span>
+                </div>
+            </div>
+
+            <div class="project-description-section">
+                <h3>About the Project</h3>
+                <p>Designed an AI-powered research assistant using Google Gemini AI, automating research paper retrieval and data visualization, reducing manual effort by 50%.</p>
+                
+                <div class="project-features">
+                    <h4>Key Achievements</h4>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> 50% reduction in manual research effort</li>
+                        <li><i class="fas fa-check-circle"></i> Automated arXiv API paper retrieval</li>
+                        <li><i class="fas fa-check-circle"></i> Custom data visualization with Matplotlib</li>
+                        <li><i class="fas fa-check-circle"></i> Google Gemini AI integration</li>
+                    </ul>
+                </div>
+
+                <div class="tech-stack-detail">
+                    <h4>Technologies Used</h4>
+                    <div class="tech-tags-large">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">TensorFlow</span>
+                        <span class="tech-tag">Google Gemini AI</span>
+                        <span class="tech-tag">arXiv API</span>
+                        <span class="tech-tag">Matplotlib</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-gallery">
+                <h3>Screenshots & Preview</h3>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/800x600/667eea/ffffff?text=Research+Dashboard" alt="Research Dashboard">
+                        <p class="gallery-caption">Research Dashboard</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/800x600/8b5cf6/ffffff?text=Data+Visualization" alt="Data Visualization">
+                        <p class="gallery-caption">Data Visualization</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mini GPT Assistant -->
+    <section class="project-detail" data-category="ai">
+        <div class="container">
+            <div class="project-header">
+                <div class="project-title-section">
+                    <h2><i class="fas fa-robot"></i> Mini GPT Multi-Tool Assistant</h2>
+                    <p class="project-tagline">LLM-Powered Multi-Function Assistant</p>
+                </div>
+                <div class="project-meta-info">
+                    <span class="meta-item"><i class="fas fa-calendar"></i> Nov 2024</span>
+                    <span class="meta-item"><i class="fas fa-laptop-code"></i> Python</span>
+                </div>
+            </div>
+
+            <div class="project-description-section">
+                <h3>About the Project</h3>
+                <p>Developed a GPT-powered multi-tool assistant using Meta's Llama model with 4-bit quantization for enhanced performance and real-time API integrations.</p>
+                
+                <div class="project-features">
+                    <h4>Key Features</h4>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> 98.3% accuracy in weather predictions</li>
+                        <li><i class="fas fa-check-circle"></i> 4-bit quantized model for faster responses</li>
+                        <li><i class="fas fa-check-circle"></i> OpenWeatherMap API integration</li>
+                        <li><i class="fas fa-check-circle"></i> GPU acceleration with CUDA</li>
+                        <li><i class="fas fa-check-circle"></i> JSON parsing and function calling</li>
+                    </ul>
+                </div>
+
+                <div class="tech-stack-detail">
+                    <h4>Technologies Used</h4>
+                    <div class="tech-tags-large">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Meta Llama</span>
+                        <span class="tech-tag">Hugging Face</span>
+                        <span class="tech-tag">CUDA</span>
+                        <span class="tech-tag">APIs</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-gallery">
+                <h3>Screenshots & Preview</h3>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/800x600/667eea/ffffff?text=GPT+Interface" alt="GPT Interface">
+                        <p class="gallery-caption">Assistant Interface</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/800x600/8b5cf6/ffffff?text=Weather+Integration" alt="Weather">
+                        <p class="gallery-caption">Weather Integration</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fraud Detection -->
+    <section class="project-detail" data-category="ai">
+        <div class="container">
+            <div class="project-header">
+                <div class="project-title-section">
+                    <h2><i class="fas fa-shield-alt"></i> Advanced Fraud Detection System</h2>
+                    <p class="project-tagline">Predictive Analytics & Network Analysis</p>
+                </div>
+                <div class="project-meta-info">
+                    <span class="meta-item"><i class="fas fa-calendar"></i> Dec 2024</span>
+                    <span class="meta-item"><i class="fas fa-laptop-code"></i> Python</span>
+                </div>
+            </div>
+
+            <div class="project-description-section">
+                <h3>About the Project</h3>
+                <p>Built a comprehensive fraud detection system with predictive models achieving 30% improvement in fraud detection accuracy through network analysis and location-based insights.</p>
+                
+                <div class="project-features">
+                    <h4>Key Achievements</h4>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> 30% improvement in fraud detection accuracy</li>
+                        <li><i class="fas fa-check-circle"></i> Identified 5+ unique fraud patterns</li>
+                        <li><i class="fas fa-check-circle"></i> 25% increase in operational efficiency</li>
+                        <li><i class="fas fa-check-circle"></i> Network-based fraud detection</li>
+                    </ul>
+                </div>
+
+                <div class="tech-stack-detail">
+                    <h4>Technologies Used</h4>
+                    <div class="tech-tags-large">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Scikit-learn</span>
+                        <span class="tech-tag">NetworkX</span>
+                        <span class="tech-tag">Pandas</span>
+                        <span class="tech-tag">NumPy</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-gallery">
+                <h3>Screenshots & Preview</h3>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/800x600/667eea/ffffff?text=Network+Graph" alt="Network Graph">
+                        <p class="gallery-caption">Fraud Network Graph</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/800x600/8b5cf6/ffffff?text=Analytics+Dashboard" alt="Analytics">
+                        <p class="gallery-caption">Analytics Dashboard</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BookScraping -->
+    <section class="project-detail" data-category="web">
+        <div class="container">
+            <div class="project-header">
+                <div class="project-title-section">
+                    <h2><i class="fas fa-book"></i> BookScraping</h2>
+                    <p class="project-tagline">Real-time Web Scraping & ML Analysis</p>
+                </div>
+                <div class="project-meta-info">
+                    <span class="meta-item"><i class="fas fa-calendar"></i> April 2024</span>
+                    <span class="meta-item"><i class="fas fa-laptop-code"></i> Python</span>
+                </div>
+            </div>
+
+            <div class="project-description-section">
+                <h3>About the Project</h3>
+                <p>Real-time web scraping solution with comprehensive ML analysis using BeautifulSoup, pandas, and seaborn for data extraction and visualization.</p>
+                
+                <div class="project-features">
+                    <h4>Key Features</h4>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Real-time web data extraction</li>
+                        <li><i class="fas fa-check-circle"></i> Automated data cleaning and processing</li>
+                        <li><i class="fas fa-check-circle"></i> Machine learning analysis on scraped data</li>
+                        <li><i class="fas fa-check-circle"></i> Data visualization with seaborn</li>
+                    </ul>
+                </div>
+
+                <div class="tech-stack-detail">
+                    <h4>Technologies Used</h4>
+                    <div class="tech-tags-large">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">BeautifulSoup</span>
+                        <span class="tech-tag">Pandas</span>
+                        <span class="tech-tag">Seaborn</span>
+                        <span class="tech-tag">ML</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-gallery">
+                <h3>Screenshots & Preview</h3>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/800x600/667eea/ffffff?text=Scraping+Dashboard" alt="Scraping Dashboard">
+                        <p class="gallery-caption">Scraping Dashboard</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/800x600/8b5cf6/ffffff?text=Data+Visualization" alt="Data Viz">
+                        <p class="gallery-caption">Data Visualization</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Interested in Working Together?</h2>
+            <p>Let's build something amazing!</p>
+            <a href="index.html#contact" class="cta-button primary">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Mohammed Abdul Saif. Built with passion using HTML, CSS & JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="projects-filter.js"></script>
+</body>
+</html>
