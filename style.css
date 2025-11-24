@@ -186,26 +186,19 @@ body {
     box-shadow: 0 10px 40px rgba(99, 102, 241, 0.4);
 }
 
-/* Contact Section - Specific Button Colors */
-.contact-buttons .cta-button.secondary:nth-child(2) {
-    background: #0077b5; /* LinkedIn Blue */
-    border-color: #0077b5;
+.cta-button.secondary {
+    background: var(--primary-color);
+    color: #fff;
+    border: 2px solid var(--primary-color);
 }
 
-.contact-buttons .cta-button.secondary:nth-child(2):hover {
-    background: #005582;
-    border-color: #005582;
+.cta-button.secondary:hover {
+    background: var(--accent-color);
+    border-color: var(--accent-color);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(99, 102, 241, 0.3);
 }
 
-.contact-buttons .cta-button.secondary:nth-child(3) {
-    background: #333; /* GitHub Dark */
-    border-color: #333;
-}
-
-.contact-buttons .cta-button.secondary:nth-child(3):hover {
-    background: #000;
-    border-color: #000;
-}
 
 
 
@@ -731,6 +724,7 @@ body {
         max-width: 150px;
     }
 }
+
 
 
 
