@@ -725,6 +725,22 @@ body {
     }
 }
 
+/* Clickable Project Cards */
+.project-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.project-card-link .project-card {
+    cursor: pointer;
+}
+
+.project-card-link:hover .project-card {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 60px rgba(99, 102, 241, 0.3);
+}
+
 
 
 
