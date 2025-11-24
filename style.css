@@ -128,21 +128,23 @@
     }
 }
 
-/* Profile Image Styles - Add at the end of style.css */
+/* Profile Image Styles - UPDATED FOR BETTER SIZE */
 
 .about-content {
     display: flex;
     gap: 3rem;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
 
 .about-image {
-    flex: 0 0 300px;
+    flex: 0 0 200px;
+    text-align: center;
 }
 
 .about-image img {
     width: 100%;
+    max-width: 200px;
     height: auto;
     border-radius: 20px;
     box-shadow: 0 10px 40px rgba(99, 102, 241, 0.2);
@@ -158,9 +160,14 @@
     .about-content {
         flex-direction: column;
         text-align: center;
+        align-items: center;
     }
     
     .about-image {
-        flex: 0 0 200px;
+        flex: 0 0 150px;
+    }
+    
+    .about-image img {
+        max-width: 150px;
     }
 }
