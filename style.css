@@ -288,27 +288,39 @@ body {
     line-height: 1.8;
 }
 
-/* About Section */
+/* About Section with Your Photo as Background */
 .about-section {
-    background: var(--light-bg);
+    background: linear-gradient(rgba(15, 23, 42, 0.88), rgba(15, 23, 42, 0.88)),
+                url('images/profile/abdul-saif.jpg') center/cover fixed;
+    color: white;
 }
 
-.about-content {
-    max-width: 800px;
-    margin: 0 auto;
+.about-section .section-title {
+    color: white;
 }
 
 .about-text p {
-    font-size: 1.15rem;
-    margin-bottom: 1.5rem;
-    color: var(--text-light);
-    line-height: 1.8;
+    color: #cbd5e1;
 }
 
 .about-text strong {
-    color: var(--primary-color);
-    font-weight: 600;
+    color: var(--accent-color);
 }
+
+.education-highlight {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-left: 4px solid var(--accent-color);
+}
+
+.education-highlight h4 {
+    color: var(--accent-color);
+}
+
+.education-highlight p {
+    color: #e2e8f0;
+}
+
 
 /* Projects Section */
 .projects-section {
@@ -707,3 +719,4 @@ body {
         max-width: 150px;
     }
 }
+
